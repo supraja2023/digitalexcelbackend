@@ -4,8 +4,7 @@ const mongoose = require('mongoose');
 const subcontrolSchema = new mongoose.Schema({
   refno: {
     type: String,
-    required: true,
-    unique:true
+    required: true
   },
   rational: {
     type: String,
